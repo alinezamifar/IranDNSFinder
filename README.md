@@ -11,7 +11,13 @@ A fast and smart tool to benchmark and configure the best Domestic (Iranian) and
 برای اجرای مستقیم اسکریپت با دسترسی روت:
 
 ```bash
-sudo bash <(curl -k -Ls https://github.com/alinezamifar/IranDNSFinder/raw/refs/heads/main/dns.sh)
+curl -k -Ls https://github.com/alinezamifar/IranDNSFinder/raw/refs/heads/main/dns.sh | sudo bash
+```
+
+یا اگر به عنوان کاربر `root` لاگین هستید:
+
+```bash
+curl -k -Ls https://github.com/alinezamifar/IranDNSFinder/raw/refs/heads/main/dns.sh | bash
 ```
 
 یا دانلود و اجرای محلی:
